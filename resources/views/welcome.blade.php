@@ -1,10 +1,4 @@
 
-@php
-    header("Content-Type: text/plain");
-    //Generates HTTP error 500
-    header($_SERVER["SERVER_PROTOCOL"] . " 500 Internal Server Error");
-@endphp
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +17,7 @@
 		<h2 role="header">karar's Repo</h2>
 		<ul>
 			<li class="has-icon">
-				<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ka6rar.github.io/" role="button">
+				<a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://cydai.herokuapp.com" role="button">
 					<img style = "border-radius: 20%;" href="cydia7.png" alt="" srcset="cydia7.png 2x, cydia7.png 3x" class="icon"/>
 					<label>Open Cydia</label>
 				</a>
