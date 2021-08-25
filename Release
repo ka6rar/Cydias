@@ -1,0 +1,11 @@
+Origin: karar's Repo
+Label: karar
+Suite: stable
+Version: 1.0
+Codename: karar
+Architecture: iphoneos-arm
+Components: main
+Description: karar's Tweaks
+MD5Sum:
+ 82826fa9266f618107318e69f865533a 14266 Packages
+ 36ee233a0e869bb2a99652b2a9b56d6f 819 Packages.bz2
