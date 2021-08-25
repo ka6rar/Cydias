@@ -15,8 +15,7 @@ class ToolsController extends Controller
 
     {
         $tools =  tool::get();
-        $uss =  file_put_contents('/public/debfiles/'.$tools );
-       return view('welcome', compact('uss'));
+       return view('welcome', compact('tools'));
 
        //response()->json($tools);
 
