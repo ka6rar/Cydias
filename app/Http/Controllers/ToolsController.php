@@ -15,9 +15,10 @@ class ToolsController extends Controller
 
     {
         $tools =  tool::get();
-       return  response()->json($tools);
+       return view('welcome', compact('tools'));
 
-       //view('welcome', compact('tools'));
+       //response()->json($tools);
+
     }
 
     /**
